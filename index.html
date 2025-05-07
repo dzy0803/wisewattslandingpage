@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,6 +57,16 @@
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
     footer {
       text-align: center;
       padding: 40px;
@@ -104,12 +113,31 @@
   </section>
 
   <section>
+    <h2>App UI Showcase</h2>
+    <p style="margin-bottom: 30px; color: #666;">A walkthrough of the WiseWatts mobile interface</p>
+    <div class="gallery">
+      <img src="1.png" alt="Screenshot 1" />
+      <img src="2.png" alt="Screenshot 2" />
+      <img src="3.png" alt="Screenshot 3" />
+      <img src="4.png" alt="Screenshot 4" />
+      <img src="5.png" alt="Screenshot 5" />
+      <img src="6.png" alt="Screenshot 6" />
+      <img src="7.png" alt="Screenshot 7" />
+      <img src="8.png" alt="Screenshot 8" />
+      <img src="9.png" alt="Screenshot 9" />
+      <img src="10.png" alt="Screenshot 10" />
+      <img src="11.png" alt="Screenshot 11" />
+      <img src="12.png" alt="Screenshot 12" />
+    </div>
+  </section>
+
+  <section>
     <h2>Technologies Used</h2>
     <ul>
       <li>Flutter (Dart)</li>
       <li>Firebase Auth + Firestore + Realtime Database</li>
-      <li>BLE (FlutterBlue) & Wi-Fi (ESP32) & Arduino Nano Wi-Fi</li>
-      <li>OpenWeather API, Octopus Energy API，Google Maps API</li>
+      <li>BLE (FlutterBlue) & Wi-Fi (ESP32)</li>
+      <li>OpenWeather API, Octopus Energy API</li>
     </ul>
   </section>
 
